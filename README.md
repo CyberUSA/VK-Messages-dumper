@@ -24,6 +24,6 @@ php main.php
 [Пример](https://github.com/ParadoxLike/VK-Messages-dumper/blob/master/Messages%20445340.html)
 
 ## Авторство
-Основа взята от [VK Opt'а](https://github.com/VkOpt/VkOpt) на js, переведена на PHP и поднята версия до 5.111
+Основа взята от [VK Opt'а](https://github.com/VkOpt/VkOpt) на JS, переведена на PHP и поднята версия до 5.111
 Сделано для личного пользования, может кому-то и пригодится ^_^
 
