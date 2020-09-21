@@ -108,7 +108,7 @@ for($i=0;$i<count($messages);$i++){
 	$html .= '<div class="upic"><img src="'.$u["photo_100"].'" alt="[photo_100]"></div>';
 	$html .= '<div class="from"> <b>'.$u["first_name"].' '.$u["last_name"].'</b> <a href="'.make_ulink($from_id).'" target="_blank">@'.$u["screen_name"].'</a> <a href="#msg'.$messages[$i]["id"].'">'.date("d.m.Y H:i:s",$messages[$i]["date"]).'</a></div>';
 
-	print_r($messages[$i]);
+	//print_r($messages[$i]);
 	if($messages[$i]["text"] != ""){
 		$html .= '<div class="msg_body">'.t2m($messages[$i]["text"]).'</div>';
 	}
@@ -241,7 +241,7 @@ function make_attach($attach){
 	switch ($attach["type"]){
 		case 'photo':
 			$photolink = photosGet($attach["photo"]["sizes"]);
-			print_r($photolink);
+			//print_r($photolink);
 			$photo_size = $attach["photo"]["width"] ? ' ('.$attach["photo"]["width"].'x'.$attach["photo"]["height"].')' : '';
 			
 			$html .= '<div class="attacment"> <div class="att_ico att_photo"></div> <a target="_blank" href="'.$photolink.'">[photo'.$attach["photo"]["owner_id"].'_'.$attach["photo"]["id"].']'.$photo_size.'</a> </div>';
