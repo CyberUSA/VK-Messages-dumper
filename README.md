@@ -12,7 +12,7 @@
 
 ```php
 $access_token = "nevaliddad5f4cf6a4nevalid2d4e298c7dfba28eb057nevalid76nevalid4a11c07bf040c9db5nevalid";
-$peer_id = "445340";
+$peer_id = "123";
 ```
 
 Запуск:
@@ -21,7 +21,7 @@ php main.php
 ```
 
 Результат сохраняется в этом же каталоге под названием "Messages {peer_id}.html".
-[Пример](https://github.com/ParadoxLike/VK-Messages-dumper/blob/master/Messages%20445340.html)
+[Пример](https://github.com/Kimys1337/VK-Messages-dumper/blob/master/Messages%20445340.html)
 
 ## Авторство
 Основа взята от [VK Opt'а](https://github.com/VkOpt/VkOpt) на JS, переведена на PHP и поднята версия до 5.111
